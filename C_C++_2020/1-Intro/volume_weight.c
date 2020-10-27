@@ -39,6 +39,7 @@ int main()
 
     weight = (volume + CUBE_IN_PER_LB - 1) / CUBE_IN_PER_LB;                            /* We use the constant value defined in marco */
     printf("The weight after we use constant value defined as marco: %d\n", weight);
+    printf("%d\n", &weight);
 
     return 0;
 }
