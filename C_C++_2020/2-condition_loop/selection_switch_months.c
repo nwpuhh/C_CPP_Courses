@@ -40,7 +40,7 @@ int main()
         case 8: printf("August\n"); break;
         case 9: printf("Sepetember\n"); break;
         case 10: printf("Octomber\n"); break;
-        case 11: printf("Nocember\n"); break;
+        case 11: printf("November\n"); break;
         case 12: printf("December\n"); break;
         default: printf("Error: The month must be an integer value between 1 to 12\n"); exit(-1); break;
     }
