@@ -1,0 +1,72 @@
+Questions of Students
+
+1. Write a procedure named "Print_Scores", that receives an argument of type **T_Scores** 
+   definded in "students.ads" and prints all different scores.
+
+   Example Output: the output of the Scores of first student:
+    "Math: 18
+     Ada: 16
+     Optic: 15
+     Physics: 15
+     Chemical: 14
+     Biology: 14
+     FLE: 14"
+    
+2. Write a procedure named "Print_All_Students", that receives **no argument**,
+   prints all information of each student by the order: Name, Description, Scores.
+
+   Example Output: the first one should be:
+    "Name: HaoKai Lin
+     Description: Hard Working Guy!
+     Scores:
+        Math: 18
+        Ada: 16
+        Optic: 15
+        Physics: 15
+        Chemical: 14
+        Biology: 14
+        FLE: 14"
+    
+3. Write a function named "Average_Scores", that receives an argument of type **T_Scores**,
+   return the average value of all scores for different subjects.
+
+   Write a procedure named "Class_Score", that receives an argument of Float,
+   print the class of average score of a student, following the standard:
+    A+ : score >= 18;
+    A : 18 < score <= 14;
+    B+ : 14 < score <= 12;
+    B : 12 < score <= 10;
+    C : score < 10
+
+    Write a test procedure using the last functions to print informations of all students
+
+   Example Output: the first one should be:
+    "Name: HaoKai Lin
+     Description: Hard Working Guy!
+     Average Scores: 15.14285
+     Class: A"
+
+4. Create an article type named "T_Scores_UF", which contains 4 Float values: 
+    the average score of "Math & Ada" => "MA" 
+    the average score of "Optic & Physics" => "OP",
+    the average score of "Chemical & Biology" => "CB",
+    the weighted total average score => "WTA"
+
+    the weight for different UF is as follows:
+        MA  : 5 credits
+        OP  : 4 credits
+        CB  : 4 credits
+        FLE : 2 credits
+    
+    write a function named "Transform" that receive an argument of type T_Scores, 
+    return the transformed **T_Scores_UF** object.
+
+    Write a test procedure that prints all transformed **T_Scores_UF** objects for all students.
+
+    Example Output: the first one should be:
+       "Name: HaoKai Lin
+        Scores UF:
+            MA: 17.0
+            OP: 15.0
+            CB: 14.0
+            WTA: 15.2666667"

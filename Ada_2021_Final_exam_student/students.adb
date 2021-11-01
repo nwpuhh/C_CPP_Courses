@@ -32,8 +32,8 @@ package body Students is
         (new String'("HaoKai Lin"), new String'("Hard Working Guy!"), (18, 16, 15, 15, 14, 14, 14)),
         (new String'("JuXin Chen"), new String'("Intelligent and Hard Working!"), (18, 18, 19, 19, 18, 17, 15)),
         (new String'("JiaNi Cai"), new String'("The only girl!"), (15, 18, 15, 14, 16, 17, 17)),
-        (new String'("JuXin Chen"), new String'("Naguht child!"), (14, 13, 14, 13, 15, 13, 14)),
-        (new String'("JiaLiang Bao"), new String'("Celever Guy!"), (16, 16, 15, 17, 16, 16, 16)),
+        (new String'("GuanQi Chen"), new String'("Naught child!"), (14, 13, 14, 13, 15, 13, 14)),
+        (new String'("JiaLiang Bao"), new String'("Clever Guy!"), (16, 16, 15, 17, 16, 16, 16)),
         (new String'("MingFu Sun"), new String'("Kawayi Parfait Accent!"), (15, 13, 15, 15, 16, 15, 13)),
         (new String'("MingYang Liu"), new String'("Need be Patient!"), (14, 12, 13, 14, 15, 15, 13)), 
         (new String'("GuoDong Xiong"), new String'("Need more efforts!"), (15, 12, 14, 15, 14, 14, 14))    

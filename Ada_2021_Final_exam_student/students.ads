@@ -17,10 +17,10 @@ package Students is
     type T_Scores is record
         Math     : Integer ;
         Ada      : Integer ;
-        Optique  : Integer ;
-        Physique : Integer ;
+        Optic    : Integer ;
+        Physics  : Integer ;
         Chemical : Integer ;
-        Bilology : Integer ;
+        Biology  : Integer ;
         FLE      : Integer ;
     end record ;
     
